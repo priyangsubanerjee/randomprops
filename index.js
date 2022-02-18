@@ -5,6 +5,7 @@ const props = require('./db/props');
 const all_props = props.props;
 const port = process.env.PORT || 3001;
 
+
 app.use(express.static(path.join(__dirname, './views')));
 
 app.get('/api/random', (req, res) => {
@@ -17,6 +18,8 @@ app.get('/api/random', (req, res) => {
 
 app.get('/api/all', (req, res) => {
 
+    res.setHeader('Content-Type', 'application/json');
+    res.setHeader('Access-Control-Allow-Origin', '*');
     res.send(all_props);
 })
 
