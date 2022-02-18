@@ -21,8 +21,6 @@ app.get('/api/random', (req, res) => {
 
 app.get('/api/all', (req, res) => {
 
-    res.setHeader('Content-Type', 'application/json');
-    res.setHeader('Access-Control-Allow-Origin', '*');
     res.send(all_props);
 })
 
