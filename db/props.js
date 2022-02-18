@@ -1,14 +1,19 @@
+const path = require('path');
+//get host name
+
+const host = process.env.HOST || 'localhost:3001';
+
 const data = [
 
     {
         "id": "1",
         "name": "Chocolate Dinosaur",
-        "image": __dirname + "/images/chocolate_dinosaur.png"
+        "image": host + "/images/chocolate_dinosaur.png"
     },
     {
         "id": "2",
         "name": "Cookie Monster",
-        "image": __dirname + "/images/cookie_monster.png"
+        "image": host + "/images/cookie_monster.png"
     },
 
 ]
