@@ -4,7 +4,10 @@ const path = require('path');
 const props = require('./db/props');
 const all_props = props.props;
 const port = process.env.PORT || 3001;
+const cors = require('cors');
 
+
+app.use(cors());
 
 app.use(express.static(path.join(__dirname, './views')));
 
