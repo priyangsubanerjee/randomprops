@@ -1,7 +1,5 @@
-const path = require('path');
 //get host name
-
-const host = process.env.HOST || 'localhost:3001';
+const host = 'https://randomprops.vercel.app'
 
 const data = [
 
