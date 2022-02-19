@@ -39,6 +39,48 @@ const data = [
         "id": "6",
         "name": "Kitty Cat",
         "image": host + "/images/kitty_cat.png"
+    },
+
+    {
+        "id": "7",
+        "name": "Penguin Hat",
+        "image": host + "/images/penguin_hat.png"
+    },
+
+    {
+        "id": "8",
+        "name": "Pumpkin Head",
+        "image": host + "/images/pumpkin_head.png"
+    },
+
+    {
+        "id": "9",
+        "name": "Rainbow Unicorn",
+        "image": host + "/images/rainbow_unicorn.png"
+    },
+
+    {
+        "id": "10",
+        "name": "Red Panda",
+        "image": host + "/images/red_panda.png"
+    },
+
+    {
+        "id": "11",
+        "name": "Silly Rabbit",
+        "image": host + "/images/silly_rabbit.png"
+    },
+
+    {
+        "id": "12",
+        "name": "Snowman Lifter",
+        "image": host + "/images/snowman_lifter.png"
+    },
+
+    {
+        "id": "13",
+        "name": "Snowflake Popper",
+        "image": host + "/images/snowflake_popper.png"
     }
 
 ]
